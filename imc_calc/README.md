@@ -1,12 +1,49 @@
-# React + Vite
+# Calculadora IMC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma Calculadora de IMC (Índice de Massa Corporal) desenvolvida com [React](https://react.dev/) e [Vite](https://vitejs.dev/).
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Calcula o IMC a partir do peso e altura informados pelo usuário.
+- Exibe a classificação do IMC de acordo com os valores calculados.
+- Interface moderna e responsiva.
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/CalculadoraIMC.git
+   cd CalculadoraIMC/imc_calc
+   ```
+
+2. Instale as dependências:
+   ```sh
+   npm install
+   ```
+
+## Executando o projeto
+
+Para iniciar o servidor de desenvolvimento:
+
+```sh
+npm run dev
+```
+
+Acesse [http://localhost:5173](http://localhost:5173) no navegador para visualizar a aplicação.
+
+## Estrutura do projeto
+
+- `src/` — Código-fonte React.
+- `index.html` — Arquivo principal HTML.
+- `package.json` — Dependências e scripts do projeto.
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Licença
+
+Este projeto está sob licença MIT.
