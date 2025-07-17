@@ -46,4 +46,8 @@ Acesse [http://localhost:5173](http://localhost:5173) no navegador para visualiz
 
 ## Licença
 
+<<<<<<< HEAD
 Este projeto está sob licença MIT.
+=======
+Este projeto está sob licença MIT.
+>>>>>>> 31015f1d7b1ba48e6cf7b8c6335d0546a3f90076
